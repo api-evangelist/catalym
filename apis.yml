@@ -1,7 +1,25 @@
 aid: catalym
-name: Catalym
-description: Catalym is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/catalym.png
+name: CatalYm
+description: CatalYm GmbH is a clinical-stage biotechnology company based in Planegg-Martinsried
+  near Munich, Germany, developing next-generation cancer immunotherapies. Its lead approach
+  neutralizes GDF-15 (Growth Differentiation Factor 15) to reverse a key immune-resistance
+  mechanism in solid tumors, aiming to reinstate anti-tumor immune activity and overcome
+  resistance to checkpoint-inhibitor and other cancer therapies. The company is a portfolio
+  company of Canaan Partners. This is a biotech/pharmaceutical organization with no public
+  developer API, SDK, or documentation surface; it is tracked in the API Evangelist network
+  as a company profile rather than an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/catalym/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,36 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-industry: biotechnology
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Immunotherapy
+- Oncology
+- Cancer
+- Drug Development
+- Germany
 apis: []
+common:
+- type: Website
+  url: https://www.catalym.com/
+- type: PrivacyPolicy
+  url: https://www.catalym.com/privacy-policy/
+- type: Imprint
+  url: https://www.catalym.com/imprint/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/catalym/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
