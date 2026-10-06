@@ -41,7 +41,7 @@ x-tier-reason: portfolio-lead
 x-industry: biotechnology
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Biotechnology
@@ -53,6 +53,8 @@ tags:
 - Germany
 apis: []
 common:
+- url: https://www.catalym.com/feed/
+  type: BlogRSS
 - type: Website
   url: https://www.catalym.com/
 - type: PrivacyPolicy
